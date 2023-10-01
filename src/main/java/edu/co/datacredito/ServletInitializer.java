@@ -1,4 +1,4 @@
-package edu.co.Datacredito;
+package edu.co.datacredito;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

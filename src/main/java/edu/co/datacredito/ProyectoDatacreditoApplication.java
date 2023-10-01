@@ -1,4 +1,4 @@
-package edu.co.Datacredito;
+package edu.co.datacredito;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

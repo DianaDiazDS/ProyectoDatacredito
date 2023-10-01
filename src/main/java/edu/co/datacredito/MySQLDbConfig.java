@@ -1,5 +1,5 @@
 
-package edu.co.Datacredito;
+package edu.co.datacredito;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -22,7 +22,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Configuration
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "mysqlEntityManagerFactory", transactionManagerRef = "mysqlTransactionManager",
-        basePackages = {"edu.co.Datacredito.repositories"})
+        basePackages = {"edu.co.datacredito.repositories"})
 //aqui
 
 public class MySQLDbConfig {

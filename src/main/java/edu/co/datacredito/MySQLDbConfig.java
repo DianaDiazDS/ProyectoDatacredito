@@ -47,7 +47,7 @@ public class MySQLDbConfig {
         LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
         entityManagerFactoryBean.setDataSource(mysqlDatasource());
         //aqui
-        entityManagerFactoryBean.setPackagesToScan("edu.co.Datacredito.models");
+        entityManagerFactoryBean.setPackagesToScan("edu.co.datacredito.models");
 
         HibernateJpaVendorAdapter hibernateJpaVendorAdapter =  new HibernateJpaVendorAdapter();
         entityManagerFactoryBean.setJpaVendorAdapter(hibernateJpaVendorAdapter);
